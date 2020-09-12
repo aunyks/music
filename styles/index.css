@@ -1,0 +1,6 @@
+@import url('https://aunyks.com/styles/index.css');
+
+/* purgecss start ignore */
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
