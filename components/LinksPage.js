@@ -18,7 +18,7 @@ export default function LinksPage({
         <meta name="theme-color" content="#ffffff" />
         <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet" media="all" />
         <link href="https://aunyks.com/styles/index.css" rel="stylesheet" media="all" />
-        <link rel="icon" type="image/png" href="https://aunyks.com/favicon.png" />
+        <link rel="icon" type="image/png" href="https://music.aunyks.com/img/default-card-image.png" />
       </Head>
       <div id="container">
         <span id="logo"><a href="https://aunyks.com">⚡️</a></span>

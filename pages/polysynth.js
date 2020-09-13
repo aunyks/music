@@ -156,7 +156,7 @@ export default function PolySynthPage({ }) {
         <p className="lg:w-1/2">
           Connect a MIDI controller and jam! Just make sure to turn this machine on first.
         </p>
-        <div className="block mx-auto my-48 lg:my-32 text-center" onClick={() => {
+        <div style={{ height: '60vh' }} className="block mx-auto text-center flex flex-col justify-center" onClick={() => {
           setMachineOnState(!machineOn)
           const newSynth = new window.Tone.PolySynth(window.Tone.Synth).toDestination()
           setSynth(newSynth)
@@ -167,6 +167,7 @@ export default function PolySynthPage({ }) {
           </svg>
           <span className="font-bold text-2xl lg:text-6xl">{machineOn ? 'ON' : 'OFF'}</span>
         </div>
+        <a style={{ position: 'absolute', bottom: '30px', right: '30px' }} href="https://aunyks.com">@aunyks</a>
         {/*
         <svg className="block w-full lg:w-1/2 mx-auto" viewBox="0 0 3122 1442" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="0.5" y="0.5" width="445" height="1441" fill={"white"} stroke="black" />
