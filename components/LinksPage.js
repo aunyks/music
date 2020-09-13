@@ -13,7 +13,7 @@ export default function LinksPage({
         <title>{`${pageTitle} - Gerald Nash`}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="The personal site of Gerald Nash, technologist and student." />
+        <meta name="description" content="Discover my musical projects!" />
         <meta name="author" content="Gerald Nash" />
         <meta name="theme-color" content="#ffffff" />
         <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet" media="all" />
