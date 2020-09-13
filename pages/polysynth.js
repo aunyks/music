@@ -151,6 +151,13 @@ export default function PolySynthPage({ }) {
       <Head>
         <script type="text/javascript" src="/js/tone.js"></script>
       </Head>
+      <style jsx>{`
+      @media (prefers-color-scheme: dark) {
+        #on-ring {
+          stroke: white;
+        }
+      }
+      `}</style>
       <div className="h-screen px-5 lg:px-36 overflow-hidden">
         <h1 className="my-2">Polysynth</h1>
         <p className="lg:w-1/2">
@@ -162,7 +169,7 @@ export default function PolySynthPage({ }) {
           setSynth(newSynth)
         }}>
           <svg className="block mx-auto my-2" width="128" height="128" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="128" cy="128" r="113" stroke="black" stroke-width="30" />
+            <circle id="on-ring" cx="128" cy="128" r="113" stroke="black" strokeWidth="30" />
             {machineOn && <circle cx="128" cy="128" r="87.5" fill="#FF0000" stroke="black" />}
           </svg>
           <span className="font-bold text-2xl lg:text-6xl">{machineOn ? 'ON' : 'OFF'}</span>
