@@ -14,7 +14,7 @@ export default function DefaultHead({
       <meta key="viewport" name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta key="description" name="description" content={description} />
       <meta key="author" name="author" content="Gerald Nash" />
-      <meta key="theme-color" name="theme-color" content="#fab700" />
+      <meta key="theme-color" name="theme-color" content="#5d44f8" />
       <link rel="icon" type="image/png" href="/favicon.png" />
       {!!cardImage ? (
         <meta name="twitter:card" content="summary_large_image" />
