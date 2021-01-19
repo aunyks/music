@@ -23,9 +23,9 @@ export default function LinksPage({
       <div id="container">
         <span id="logo"><a href="https://aunyks.com">⚡️</a></span>
         <h1 id="title">{title}</h1>
-        <div id="links">
+        <ul id="links">
           {children}
-        </div>
+        </ul>
       </div>
     </>
   )

@@ -1,7 +1,7 @@
 export default function Link({ href, children }) {
   return (
-    <p>
+    <li>
       <a href={href}>{children}</a>
-    </p>
+    </li>
   )
 }
